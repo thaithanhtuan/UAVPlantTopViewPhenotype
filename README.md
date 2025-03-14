@@ -80,6 +80,24 @@ yolo2labelme       0.0.4
 # Pretrained model of YOLOv8 Tree Instance Segmentation
 You can download pretrained model from here: https://drive.google.com/drive/folders/137DJPWmbT1VTwK-s2_dvo3E6ol4QWSiA?usp=sharing
 
+# Calculate Phenotyping feature
+```
+python Calc_Param_Tree.py
+```
+<div align="center">
+  	<img src="image/Top bounding box size.drawio.png" width="100%" />
+	<p>Top view bounding box size.</p>
+</div>
+
+<div align="center">
+  	<img src="image/Top Tree Orientation.drawio.png" width="100%" />
+	<p>Top Tree Orientation growth.</p>
+</div>
+
+<div align="center">
+  	<img src="image/TreeTopviewArea.drawio.png" width="100%" />
+	<p>Top Tree View Tree Cover Area.</p>
+</div>
 
 # Acknowledgement
 Part of the dataset used in this study was sourced from the CMLRA YouTube channel (https://www.youtube.com/@cmlra) and the Mangolelo YouTube channel (https://www.youtube.com/@mangolelo5789). We thank the content creators for providing valuable resources that contributed to the development of this research.
@@ -88,8 +106,8 @@ Part of the dataset used in this study was sourced from the CMLRA YouTube channe
 If this code helps your research, please cite our paper:
 
 	@inproceedings{thaiplantphenomics,
-		title={Analyzing Plant Visual Behavior and Response Using a Low-Cost Time-Lapse System: A Case Study on Hydration Stress},
-		author={Thanh Tuan Thai and Jeong-Ho Baek and Sheikh Mansoor and E. M. B. M. Karunathilake and Anh Tuan Le and Sulieman Al-Faifi and Faheem Shehzad Baloch and Jinhyun Ahn and Yong Suk Chung},
+		title={Innovative method for Orchard Management with Image-Derived Phenotyping and Deep Learning},
+		author={Thanh Tuan Thai, Sulieman Al-Faifi, Sheikh Mansoor, E. M. B. M. Karunathilake, Anh Tuan Le, Faheem Shehzad Baloch and Yong Suk Chung},
 		booktitle={},
 		pages={},
 		year={}
