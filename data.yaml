@@ -1,0 +1,4 @@
+names: [Tree]
+nc: 1
+train: D:\Jeju\Thai\Dataset\Forest Dataset For Tree Instance Segmentation\Crawl Dataset\TreeUAVYOLO\train
+val: D:\Jeju\Thai\Dataset\Forest Dataset For Tree Instance Segmentation\Crawl Dataset\TreeUAVYOLO\val
